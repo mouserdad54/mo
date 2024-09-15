@@ -170,6 +170,29 @@ padding: 20px;
     font-size: 1.2em;
 }
 
+.scrolling-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.scrolling-images {
+    display: flex;
+    width: 200%;
+    animation: scroll 10s linear infinite;
+}
+.scrolling-images img {
+    width: 50%;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
 .pricing-table {
     max-width: 800px;
     margin: 0 auto;
