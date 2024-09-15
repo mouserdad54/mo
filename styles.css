@@ -177,11 +177,11 @@ padding: 20px;
 }
 .scrolling-images {
     display: flex;
-    width: 200%;
-    animation: scroll 10s linear infinite;
+    width: 100%;
+    animation: scroll 14s linear infinite;
 }
 .scrolling-images img {
-    width: 50%;
+    width: 100%;
 }
 @keyframes scroll {
     0% {
